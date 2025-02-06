@@ -1,3 +1,15 @@
+## Installation
+
+### Install via UPM (using Git URL)
+
+1. Open UPM from Window -> Package Manager.
+2. Click "+" then click "Add package from git URL"
+3. Enter the URL "https://github.com/dmitry-ivashenko/StatefulUI.git?path=Assets/Plugins/StatefulUI" and click add.
+3. UPM should now install the package.
+
+
+
+
 # Stateful UI
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
@@ -105,15 +117,6 @@ public void ShowResults(IEnumerable<IReward> rewards)
         .FillWithItems(rewards, (view, reward) => reward.UpdateView(view));
 }
 ```
-
-## Installation
-
-### Install via UPM (using Git URL)
-
-1. Open UPM from Window -> Package Manager.
-2. Click "+" then click "Add package from git URL"
-3. Enter the URL "https://github.com/dmitry-ivashenko/StatefulUI.git?path=Assets/Plugins/StatefulUI" and click add.
-3. UPM should now install the package.
 
 ### Install manually (using .unitypackage)
 
